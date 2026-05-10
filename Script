@@ -1,5 +1,7 @@
 local PlayerService = game:GetService("Players")
 
+wait(2.5)
+
 for i = 1, #PlayerService:GetPlayers() do
     local Player = PlayerService:GetPlayers()[i]
     Player:Kick("This is test guys to hacckkckcckckckck")
